@@ -175,3 +175,18 @@ h3 {
     grid-column: 2/4;
   }
 }
+
+/*nosotros*/
+.nosotros{
+display: grid;
+gap: 2rem;
+grid-template-columns: repeat(2 1fr);
+}
+
+.nosotros__descripcion{
+
+}
+
+.navegacion__imagen{
+
+}

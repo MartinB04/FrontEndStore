@@ -3,7 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>FrontEnd Store</title>
+
+     <!-- Google tag (gtag.js) -->
+     <script
+     async
+     src="https://www.googletagmanager.com/gtag/js?id=G-MH277JQSFD"
+   ></script>
+   <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag() {
+       dataLayer.push(arguments);
+     }
+     gtag("js", new Date());
+
+     gtag("config", "G-MH277JQSFD");
+   </script>
+
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,17 +38,31 @@
     </header>
 
     <nav class="navegacion">
-        <a class="navegacion__enlace" href="index.html">Tienda</a> 
-        <a class="navegacion__enlace navegacion__enlace--activo" href="nosotros.html">Nosotros</a>
+      <a class="navegacion__enlace" href="index.html">Tienda</a>
+      <a
+        class="navegacion__enlace navegacion__enlace--activo"
+        href="nosotros.html"
+        >Nosotros</a
+      >
     </nav>
 
-
     <main class="contenedor">
-        <h1>Nosotros</h1>
+      <h1>Sobre Nosotros</h1>
+
+      <div class="nosotros">
+        <div class="nosotros__descripcion"><p>Duis consequat mollit consequat commodo laboris id. Qui duis non fugiat consectetur adipisicing cupidatat minim culpa pariatur velit. Nostrud non minim sit ex commodo minim consequat laboris.
+
+          
+Nisi ex pariatur ullamco fugiat enim aliquip. Nostrud eu labore aute aute eu anim eu commodo quis nostrud. Irure voluptate mollit pariatur commodo exercitation voluptate fugiat et sit non eu occaecat. Ipsum pariatur ut nulla non amet ipsum et.</p></div>
+        <img class="nosotros__imagen" src="/img/nosotros.jpg" alt="Logotipo nosotros">
+      </div>
+
     </main>
 
     <footer class="footer">
-        <p class="footer__texto">Front End Store - Todos los derechos reservados 2023.</p>
+      <p class="footer__texto">
+        Front End Store - Todos los derechos reservados 2023.
+      </p>
     </footer>
   </body>
 </html>
